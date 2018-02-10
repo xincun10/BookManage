@@ -8,9 +8,9 @@
 <title>显示页面</title>
 </head>
 <body>
-	<a href="">查询所有</a>
-	<a href="">查询SE所有</a>
-	<a href="">查询EE所有</a>
-	<a href="">查询FRAME所有</a>
+	<a href="<c:url value='/BookServlet?method=findAll' />">查询所有</a><br>
+	<a href="<c:url value='/BookServlet?method=findByCategory&category=1' />">查询SE所有</a><br>
+	<a href="<c:url value='/BookServlet?method=findByCategory&category=2' />">查询EE所有</a><br>
+	<a href="<c:url value='/BookServlet?method=findByCategory&category=3' />">查询FRAME所有</a>
 </body>
 </html>
